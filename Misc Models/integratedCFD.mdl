@@ -1,0 +1,223 @@
+{UTF-8}
+Attractive index of product  = A FUNCTION OF( Demand)
+	~	
+	~		|
+
+Competition  = A FUNCTION OF( Startups)
+	~	
+	~		|
+
+Consumer of product  = A FUNCTION OF( Attractive index of product)
+	~	
+	~		|
+
+Cost of Education  = A FUNCTION OF( economy)
+	~	
+	~		|
+
+"Govt. incentives"  = A FUNCTION OF( economy)
+	~	
+	~		|
+
+growth of startup  = A FUNCTION OF( potential Customers per startup,Skilled labor)
+	~	
+	~		|
+
+Importance and easy accessibility of Education  = A FUNCTION OF( Cost of Education)
+	~	
+	~		|
+
+Demand  = A FUNCTION OF( Quality of products)
+	~	
+	~		|
+
+economy  = A FUNCTION OF( GDP,growth of startup,Notion of business)
+	~	
+	~		|
+
+GDP  = A FUNCTION OF( wealth)
+	~	
+	~		|
+
+Startups  = A FUNCTION OF( "Govt. incentives",perceived ROI)
+	~	
+	~		|
+
+wealth  = A FUNCTION OF( jobs)
+	~	
+	~		|
+
+perceived ROI  = A FUNCTION OF( Consumer of product)
+	~	
+	~		|
+
+jobs  = A FUNCTION OF( Startups)
+	~	
+	~		|
+
+Notion of business  = A FUNCTION OF( growth of startup)
+	~	
+	~		|
+
+Quality of products  = A FUNCTION OF( Competition)
+	~	
+	~		|
+
+Skilled labor  = A FUNCTION OF( Importance and easy accessibility of Education)
+	~	
+	~		|
+
+Cost of equipments required for smartphone users  = A FUNCTION OF( product or goods rate\
+		)
+	~	
+	~		|
+
+Cost of smartphones  = A FUNCTION OF( Cost of equipments required for smartphone users\
+		)
+	~	
+	~		|
+
+Customers  = A FUNCTION OF( SmartPhone users)
+	~	
+	~		|
+
+Population  = A FUNCTION OF( )
+	~	
+	~		|
+
+potential Customers per startup  = A FUNCTION OF( Customers)
+	~	
+	~		|
+
+product or goods rate  = A FUNCTION OF( economy)
+	~	
+	~		|
+
+SmartPhone users  = A FUNCTION OF( Cost of smartphones,Population)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Arial Unicode MS|12||0-0-0|0-0-0|64-128-128|-1--1--1|255-255-255|96,96,100,0
+10,1,Population,852,-167,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,2,SmartPhone users,1085,-108,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,3,Customers,1255,-44,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,4,potential Customers per startup,1284,68,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,5,growth of startup,1276,195,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,6,economy,1121,279,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,7,product or goods rate,939,236,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,8,Cost of equipments required for smartphone users,853,87,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,9,Cost of smartphones,887,-47,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,10,9,2,1,0,45,0,2,192,0,-1--1--1,|||0-0-0,1|(941,-109)|
+1,11,1,2,1,0,43,0,2,192,0,-1--1--1,|||0-0-0,1|(968,-208)|
+1,12,2,3,1,0,43,0,2,192,0,-1--1--1,|||0-0-0,1|(1194,-103)|
+1,13,3,4,1,0,43,0,2,192,0,-1--1--1,|||0-0-0,1|(1285,13)|
+1,14,4,5,1,0,43,0,2,192,0,-1--1--1,|||0-0-0,1|(1292,138)|
+1,15,5,6,1,0,43,0,2,192,0,-1--1--1,|||0-0-0,1|(1245,251)|
+1,16,6,7,1,0,45,0,2,192,0,-1--1--1,|||0-0-0,1|(984,300)|
+1,17,7,8,1,0,43,0,2,192,0,-1--1--1,|||0-0-0,1|(849,193)|
+1,18,8,9,1,0,43,0,2,192,0,-1--1--1,|||0-0-0,1|(844,23)|
+12,19,2,1057,65,23,23,4,3,0,4,-1,0,0,0,-1--1--1,128-0-64,|||0-0-0,0,0,0,0,0,0
+10,20,Skilled labor,1502,238,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,21,Notion of business,1308,357,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,22,Cost of Education,1255,571,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,23,Importance and easy accessibility of Education,1502,478,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,24,20,5,1,0,43,0,2,192,0,-1--1--1,|||-1--1--1,1|(1372,201)|
+1,25,5,21,4,0,43,0,2,192,0,-1--1--1,|||-1--1--1,2|(1269,255)|(1269,296)|
+1,26,21,6,1,0,43,0,2,192,0,-1--1--1,|||-1--1--1,1|(1226,346)|
+1,27,6,22,1,0,45,0,2,192,0,-1--1--1,|||-1--1--1,1|(1095,419)|
+1,28,22,23,1,0,45,0,2,192,0,-1--1--1,|||-1--1--1,1|(1450,538)|
+1,29,23,20,1,0,43,0,2,192,0,-1--1--1,|||-1--1--1,1|(1541,351)|
+12,30,2,1359,409,23,23,5,3,0,4,-1,0,0,0,-1--1--1,128-128-192,|||0-0-0,0,0,0,0,0,0
+10,31,Startups,795,373,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,32,jobs,767,482,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,33,wealth,914,588,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,34,GDP,1181,452,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,35,"Govt. incentives",959,339,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,36,31,32,1,0,43,0,2,192,0,-1--1--1,|||-1--1--1,1|(765,454)|
+1,37,32,33,1,0,43,0,2,192,0,-1--1--1,|||-1--1--1,1|(818,567)|
+1,38,33,34,1,0,43,0,2,192,0,-1--1--1,|||-1--1--1,1|(1088,558)|
+1,39,34,6,1,0,43,0,2,192,0,-1--1--1,|||-1--1--1,1|(1170,382)|
+1,40,6,35,1,0,43,0,2,192,0,-1--1--1,|||-1--1--1,1|(1033,330)|
+1,41,35,31,1,0,43,0,2,192,0,-1--1--1,|||-1--1--1,1|(873,316)|
+12,42,2,935,444,23,23,5,3,0,4,-1,0,0,0,-1--1--1,255-128-0,|||0-0-0,0,0,0,0,0,0
+10,43,Competition,641,295,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,44,Quality of products,470,356,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,45,Demand,437,470,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,46,Attractive index of product,470,624,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,47,Consumer of product,643,708,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,48,perceived ROI,808,651,75,30,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,49,31,43,1,0,43,0,2,192,0,-1--1--1,|||-1--1--1,1|(754,296)|
+1,50,43,44,1,0,43,0,2,192,0,-1--1--1,|||-1--1--1,1|(542,298)|
+1,51,44,45,1,0,43,0,2,192,0,-1--1--1,|||-1--1--1,1|(432,430)|
+1,52,45,46,1,0,43,0,2,192,0,-1--1--1,|||-1--1--1,1|(427,560)|
+1,53,46,47,1,0,43,0,2,192,0,-1--1--1,|||-1--1--1,1|(578,714)|
+1,54,47,48,1,0,43,0,2,192,0,-1--1--1,|||-1--1--1,1|(774,692)|
+1,55,48,31,1,0,43,0,2,192,0,-1--1--1,|||-1--1--1,1|(838,453)|
+12,56,2,592,469,23,23,5,3,0,4,-1,0,0,0,-1--1--1,64-64-64,|||0-0-0,0,0,0,0,0,0
+///---\\\
+:L<%^E!@
+5:Attractive index of product
+9:current
+19:100,0
+24:0
+25:0
+26:0
+23:0
+15:0,0,0,0,0,0
+27:0,
+34:0,
+42:1
+72:0
+73:0
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+95:0
+96:0
+97:0
+77:0
+78:0
+102:0
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:
+103:8,8,8,3,8
